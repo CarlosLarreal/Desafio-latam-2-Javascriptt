@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style2.css">
+    <title>Seleccionar Cantidad de Stickers</title>
+</head>
+<body>
+    <h1>Selecciona tus Stickers</h1>
+    <div class="contenedor">
+        <div class="sticker">
+            <img src="./img/github.png" alt="Sticker 1">
+            <input type="number" id="sticker1" min="0" max="10" placeholder="Cantidad">
+        </div>
+    
+        <div class="sticker">
+            <img src="./img/ws.jpg" alt="Sticker 2">
+            <input type="number" id="sticker2" min="0" max="10" placeholder="Cantidad">
+        </div>
+    
+        <div class="sticker">
+            <img src="./img/telegram.jpg" alt="Sticker 3">
+            <input type="number" id="sticker3" min="0" max="10" placeholder="Cantidad">
+        </div>
+    </div>
+
+    <button id="botonCalcular">Calcular Stickers</button>
+
+    <p id="resultado"></p>
+</body>
+<script src="./js/main2.js"></script>
+</html>
